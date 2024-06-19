@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <script>
+            var students = ['zuhaib','salman','roshan','kiran','chomu'];
+
+            function myFunction(m){
+                console.log("Hello "+m+", How Are you");
+            }
+            for(var i=0;i<=4;i++){
+                myFunction(students[i]);
+            }
+
+            function myFunction2(s){
+                for(var i=4;i>=0;i--){
+                    console.log("5 Hello "+s[i]+", How Are you");
+                }
+            }
+            myFunction2(students)
+        </script>
+    </body>
+</html>
